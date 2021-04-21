@@ -166,12 +166,12 @@ button:hover{
 .grid-item3:hover{
   background-color: #5eaaa8;
 }
-.portfolio-2:hover,
+/* .portfolio-2:hover,
 .portfolio-3:hover,
 .portfolio-4:hover,
 .portfolio-5:hover{
   background-color: #a3d2ca;
-}
+} */
 
 .portfolio-1{
   grid-area: title;
@@ -405,13 +405,7 @@ img{
   background-color: #f05945;
   padding: 5px;
 }
-.middle-2{
-  grid-area: learned;
-  background-color: black;
-  color: #f7f3e9;
-  border: 3px solid #f7f3e9;
-  padding: 5px;
-}
+
 .middle-2:hover{
   background-color: #f05945;
   border: 3px solid #f05945;
@@ -423,11 +417,7 @@ img{
   padding: 5px;
 
 }
-.outcome-2{
-  grid-area: positive;
-  background-color: #f7f3e9;
-  padding: 5px;
-}
+
 
 .backstory-div{
   display: grid;
@@ -445,7 +435,7 @@ img{
 .middle-div{
   display: grid;
   grid-template-areas:
-  'hard learned';
+  'hard';
   width: 800px;
   height: 300px;
   text-align: center;
@@ -457,7 +447,7 @@ img{
 .outcome-div{
   display: grid;
   grid-template-areas:
-  'outcome positive';
+  'outcome';
   width: 800px;
   height: 300px;
   text-align: center;
